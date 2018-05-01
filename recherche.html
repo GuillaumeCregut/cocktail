@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Cocktails</title>
+</head>
+<?php
+//Definistion des variables
+  $FondEcran="#D5FDFF";
+  $ImageWidth=797;
+  $ImageFond="fond.jpg";
+  $ImageHeight=202;
+  $NomClient="Guillaume";
+  $CouleurClient="red";
+  $Puce1="verre.gif";
+//Affichage
+  echo "<body bgcolor=\"$FondEcran\" text=\"black\" link=\"blue\" vlink=\"purple\" alink=\"red\">\n";
+  echo "<div align=\"center\">\n";
+  echo "<table border=\"0\"  width=\"$ImageWidth\">\n";
+  echo "  <tr>\n";
+  echo "      <td height=\"$ImageHeight\" background=\"images/$ImageFond\">\n";
+  echo "      </td>\n";
+  echo "  </tr>\n";
+  echo "  <tr>\n";
+  echo "      <td valign=\"top\">\n";
+  echo "          <h1 align=\"center\">Les Cocktails de : <i><font color=\"$CouleurClient\">$NomClient</font></i></h1>\n";
+  echo "<H2>Consultation des recettes de cocktail</H2>\n";
+  echo "              <p align=\"left\">Choisissez le type de recherche :\n";
+  echo "              <FORM NAME="Typerech" METHOD="post" ACTION="recherche.php">\n";
+  echo "<SELECT NAME="typerecherche">\n";
+  echo "<OPTION VALUE="0">Type de cocktail</OPTION>\n";
+  echo "<OPTION VALUE="1">Ingr&eacute;dient</OPTION>\n";
+  echo "<OPTION VALUE="2">Nom</OPTION>\n";
+  echo "</SELECT>  </p>\n";
+  echo "<p align="center"><INPUT TYPE="submit" VALUE="Rechercher"></p>\n";
+  echo "</FORM>\n";
+  echo "<p><a href="index.php">Index</a></p>\n";
+  echo "      </td>\n";
+  echo "  </tr>\n";
+  echo "</table>\n";
+  echo "</div>\n";
+  echo "</body>\n";
+  echo "</html>\n";
+?>

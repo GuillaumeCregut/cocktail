@@ -1,0 +1,30 @@
+body {background-color: #D8DCDD;}
+td.row1 {
+          background-color: #0F66BF;
+          height: 50;
+          color: #FFF9B3;
+          font-weight: bold;
+          text-align: center;
+          font-size: x-large
+         }
+td.row2 {
+          background-color: silver;
+          height: 50;
+          width: 234;
+          text-align: center;
+          font-weight: bold;
+         }
+td.row3 {
+         background-color: #A8DBFF;
+         height: 50;
+         text-indent: 10px
+        }
+td.row4 {
+         background-color: white;
+         height: 50;
+        }
+H1 {
+     text-align: center;
+     text-decoration: underline;
+     color: red
+   }

@@ -1,0 +1,11 @@
+body {background-color: #D5FDFF;}
+#proprio {font-family: tahoma; font-style: italic;color: red}
+#typerecette{color: green; text-decoration: underline}
+#titre{text-decoration: underline}
+#fondchoix{background-color: white; text-indent: 10px}
+#titrepage{text-decoration: underline}
+#nomrecette{color: #AE0BB1}
+#nomingredient{color: #373AA2; text-indent: 10px}
+#fonding{background-color: white;color: #373AA2; text-indent: 10px}
+#resultbdd{color: red; text-decoration: underline}
+#demandevaleur{font-weight: bold}
